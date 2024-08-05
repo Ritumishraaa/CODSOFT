@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#services {
+    background-color: #cbe1e446;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    margin-bottom: 20px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    max-width: 300px; /* Control the max-width for better spacing */
+    text-align: left;
+}
+
+.service img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: block; /* Ensure the image is a block element */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#testimonials {
+    background-color: #d8bebe;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    margin-bottom: 20px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    max-width: 300px; /* Control the max-width for better spacing */
+    text-align: left;
+}
+
+.testimonial img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: block; /* Ensure the image is a block element */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+    background-color: #e6e6e6;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 800px; /* Adjusted width for landscape layout */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form label {
+    width: 100%;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%; /* Adjust the width for two columns */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form textarea {
+    width: 100%; /* Full width for the textarea */
+    height: 100px; /* Fixed height for the textarea */
+}
+
+form button {
+    width: 100%; /* Full width for the button */
+    padding: 10px 20px;
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
